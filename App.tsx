@@ -85,8 +85,8 @@ const App: React.FC = () => {
                   alt="Логотип" 
                   className="h-10 w-10 rounded-lg object-cover"
                 />
-                <span className="font-bold text-xl text-gray-800 tracking-tight">
-                  Обратная связь
+                <span className="font-bold text-lg text-gray-800 tracking-tight">
+                  Мастерство управления
                 </span>
               </div>
               <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
