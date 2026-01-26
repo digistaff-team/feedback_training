@@ -19,7 +19,7 @@ export const Home: React.FC<HomeProps> = ({ onStart }) => {
             <div className="uppercase tracking-wider text-sm font-semibold mb-2 text-primary-200">Мини-тренинг</div>
             <h1 className="text-4xl md:text-5xl font-bold mb-4">Обратная связь</h1>
             <p className="text-lg md:text-xl text-primary-100 max-w-xl">
-              Освойте искусство предоставления эффективной, объективной и конструктивной обратной связи, чтобы создать более счастливую и продуктивную команду.
+              Освойте искусство предоставления обратной связи, чтобы создать мотивированную и продуктивную команду.
             </p>
           </div>
         </div>
