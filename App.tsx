@@ -81,7 +81,7 @@ const App: React.FC = () => {
             <div className="flex w-full justify-between sm:w-auto sm:justify-start">
               <div className="flex-shrink-0 flex items-center cursor-pointer gap-3" onClick={() => navigate(AppRoute.HOME)}>
                 <img 
-                  src="https://i.ibb.co/7xVMNtcw/photoaidcom-cropped.png" 
+                  src="https://i.ibb.co/VYn2JXwF/100-100.png" 
                   alt="Логотип" 
                   className="h-10 w-10 rounded-lg object-cover"
                 />
