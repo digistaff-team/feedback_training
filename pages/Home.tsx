@@ -17,7 +17,7 @@ export const Home: React.FC<HomeProps> = ({ onStart }) => {
           />
           <div className="absolute inset-0 flex flex-col justify-center px-8 md:px-12 text-white">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">Обратная связь</h1>
-            <p className="text-lg md:text-xl text-primary-500 max-w-xl">
+            <p className="text-lg md:text-xl text-primary-100 max-w-xl">
               Освойте искусство предоставления обратной связи, чтобы создать мотивированную и продуктивную команду.
             </p>
           </div>
