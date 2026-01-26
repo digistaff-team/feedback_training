@@ -16,7 +16,7 @@ export const Home: React.FC<HomeProps> = ({ onStart }) => {
             className="w-full h-full object-cover opacity-40 mix-blend-overlay"
           />
           <div className="absolute inset-0 flex flex-col justify-center px-8 md:px-12 text-white">
-            <h1 className="text-4xl md:text-5xl font-bold mb-4">Мастерство управления</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-4">Обратная связь</h1>
             <p className="text-lg md:text-xl text-primary-100 max-w-xl">
               Освойте искусство предоставления обратной связи, чтобы создать мотивированную и продуктивную команду.
             </p>
