@@ -24,7 +24,7 @@ export const Home: React.FC<HomeProps> = ({ onStart }) => {
         </div>
         
         <div className="p-8 md:p-12">
-          <h2 className="text-2xl font-bold text-gray-800 mb-4">Почему нам трудно давать обратную связь?</h2>
+          <h2 className="text-lg md:text-2xl font-bold text-gray-800 mb-4">Почему нам трудно давать обратную связь?</h2>
           <p className="text-gray-600 mb-6 leading-relaxed">
             Давать честную обратную связь, особенно корректирующую, может быть весьма непросто. Как сказать коллеге, что он делает что-то не так, сохранив при этом отношения?
             Ключ в том, чтобы быть <strong>объективным</strong> и помогать человеку найти собственное решение.
