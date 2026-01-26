@@ -11,7 +11,7 @@ export const Home: React.FC<HomeProps> = ({ onStart }) => {
       <div className="bg-white rounded-2xl shadow-xl overflow-hidden mb-8">
         <div className="h-64 bg-gradient-to-r from-primary-800 to-primary-600 relative overflow-hidden">
            <img 
-            src="https://picsum.photos/1200/400" 
+            src="https://i.ibb.co/5hQHrP2x/66x200.jpg" 
             alt="Nature birds" 
             className="w-full h-full object-cover opacity-40 mix-blend-overlay"
           />
