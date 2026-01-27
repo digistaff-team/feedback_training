@@ -169,8 +169,12 @@ const App: React.FC = () => {
         {renderContent()}
       </main>
 
-      {/* AI Coach Overlay */}
-      <AICoach />
+      {/* AI Coach Overlay - Positioned on border */}
+      <div className="max-w-7xl w-full mx-auto relative z-50 pointer-events-none">
+        <div className="absolute right-4 sm:right-6 lg:right-8 top-0 transform -translate-y-1/2 pointer-events-auto">
+          <AICoach />
+        </div>
+      </div>
 
       {/* Footer */}
       <footer className="bg-white border-t border-gray-200 py-8">
