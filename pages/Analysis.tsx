@@ -121,7 +121,7 @@ export const Analysis: React.FC = () => {
                  </Button>
                  
                  <Button variant="secondary" onClick={() => window.location.hash = '#planning'}>
-                   Далее (Шаг 3) &rarr;
+                   Далее (Причины)
                  </Button>
                </div>
             </div>
