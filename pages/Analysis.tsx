@@ -30,8 +30,8 @@ export const Analysis: React.FC = () => {
   return (
     <div className="max-w-4xl mx-auto">
       <div className="mb-8">
-        <h2 className="text-3xl font-bold text-gray-900 mb-4">Анализ действий</h2>
-        <p className="text-gray-600">
+        <h2 className="text-2xl font-bold text-gray-900 mb-4">Анализ действий</h2>
+        <p className="text-lg text-gray-600">
           Заполните форму ниже, чтобы структурировать факты перед разговором. 
           Четкое понимание разницы между стандартом и реальным поведением поможет вам оставаться объективным.
         </p>
