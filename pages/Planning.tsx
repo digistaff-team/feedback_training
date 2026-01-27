@@ -22,8 +22,8 @@ export const Planning: React.FC = () => {
   return (
     <div className="max-w-5xl mx-auto">
       <div className="mb-8">
-        <h2 className="text-3xl font-bold text-gray-900 mb-2">Диагностика причин</h2>
-        <p className="text-gray-600">
+        <h2 className="text-2xl font-bold text-gray-900 mb-2">Диагностика причин</h2>
+        <p className="text-sm text-gray-600">
           Ниже перечислены факторы, необходимые сотруднику для успешной деятельности. 
           <strong> Снимите галочки</strong> с тех факторов, которых <strong>не хватает</strong> сотруднику.  
           Это поможет выявить корневые причины его действий и учитывать их в диалоге.
@@ -83,18 +83,18 @@ export const Planning: React.FC = () => {
 
         <div className="lg:col-span-1">
           <div className="bg-indigo-900 text-white rounded-xl p-6 shadow-lg sticky top-6">
-            <h3 className="text-xl font-bold mb-4">Ваш план действий</h3>
+            <h3 className="text-xl font-bold mb-4">Что стоит предпринять</h3>
             {missingFactors.length === 0 ? (
               <div className="text-center py-6 text-indigo-200">
                 <svg className="w-12 h-12 mx-auto mb-3 opacity-50" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
                 <p className="text-sm italic">
-                  Похоже, все факторы успеха присутствуют.<br/>
+                  Похоже, у сотрудника есть всё, что нужно для успешной работы.<br/>
                   Если проблема сохраняется, попробуйте пересмотреть пункты и снять галочки с тех, в которых вы сомневаетесь.
                 </p>
               </div>
             ) : (
               <div className="space-y-4 animate-fade-in">
-                <p className="text-xs text-indigo-300 uppercase font-semibold">Необходимые меры ({missingFactors.length}):</p>
+                <p className="text-xs text-indigo-300 uppercase font-semibold">Необходимые действия ({missingFactors.length}):</p>
                 <ul className="space-y-4">
                   {missingFactors.map(item => (
                     <li key={item.key} className="text-sm border-l-2 border-orange-400 pl-3">
@@ -107,7 +107,7 @@ export const Planning: React.FC = () => {
             )}
             <div className="mt-8">
               <Button variant="secondary" className="w-full text-indigo-900 font-semibold" onClick={() => window.location.hash = '#discussion'}>
-                Шаг 4: Провести диалог
+                Далее (План диалога)
               </Button>
             </div>
           </div>
