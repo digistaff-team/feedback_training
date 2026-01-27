@@ -1,18 +1,16 @@
 const getEnvVar = (key: string): string | undefined => {
   try {
-    // @ts-ignore
-    if (typeof process !== 'undefined' && process.env) {
-      // @ts-ignore
-      return process.env[key];
-    }
+    // Vite использует import.meta.env, а не process.env
+    return import.meta.env[key];
   } catch (e) {
-    console.warn(`Ошибка доступа к process.env.${key}`, e);
+    console.warn(`Ошибка доступа к import.meta.env.${key}`, e);
+    return undefined;
   }
-  return undefined;
 };
 
-const BOT_TOKEN = getEnvVar('BOT_TOKEN');
-const BOT_ID = getEnvVar('BOT_ID');
+// Читаем с префиксом VITE_
+const BOT_TOKEN = getEnvVar('VITE_BOT_TOKEN');
+const BOT_ID = getEnvVar('VITE_BOT_ID');
 
 // Генерируем или получаем существующий ID чата для сохранения контекста сессии
 const getChatId = (): string => {
