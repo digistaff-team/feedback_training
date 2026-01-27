@@ -32,8 +32,8 @@ export const Discussion: React.FC = () => {
   return (
     <div className="max-w-5xl mx-auto">
       <div className="mb-8 text-center">
-        <h2 className="text-3xl font-bold text-gray-900">Проведение диалога</h2>
-        <p className="text-gray-600 mt-2">Используйте метод <strong>GROW</strong> для структурирования беседы и достижения согласия.</p>
+        <h2 className="text-2xl font-bold text-gray-900">Проведение диалога</h2>
+        <p className="text-sm text-gray-600 mt-2">Используйте метод <strong>GROW</strong> для структурирования беседы и достижения согласия.</p>
       </div>
 
       <div className="flex flex-col md:flex-row gap-8">
