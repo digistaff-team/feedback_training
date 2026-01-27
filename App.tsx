@@ -29,6 +29,11 @@ const App: React.FC = () => {
     return () => window.removeEventListener('hashchange', handleHashChange);
   }, []);
 
+    // Scroll to top whenever the route changes
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [currentRoute]);
+
   const navigate = (route: AppRoute) => {
     window.location.hash = route;
     setIsMobileMenuOpen(false);
