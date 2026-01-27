@@ -55,9 +55,9 @@ export const Evaluate: React.FC = () => {
   return (
     <div className="max-w-4xl mx-auto">
       <div className="mb-8">
-        <h2 className="text-3xl font-bold text-gray-900 mb-4">Оценка ситуации</h2>
+        <h2 className="text-2xl font-bold text-gray-900 mb-4">Оценка ситуации</h2>
         <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-200 mb-6">
-          <h3 className="text-xl font-semibold mb-3">Опирайтесь в оценке ситуации на факты, а не на мнения.</h3>
+          <h3 className="text-lg font-semibold mb-3">Опирайтесь в оценке ситуации на факты, а не на мнения.</h3>
           <div className="grid md:grid-cols-2 gap-8">
              <div>
                <h4 className="font-bold text-green-600 mb-2 flex items-center gap-2">
