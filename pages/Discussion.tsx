@@ -97,7 +97,7 @@ export const Discussion: React.FC = () => {
                 <textarea 
                   value={aiContext}
                   onChange={(e) => setAiContext(e.target.value)}
-                  rows={2}
+                  rows={3}
                   placeholder="например, Сотрудник талантливый, но постоянно опаздывает."
                   className="w-full p-2 bg-white text-sm text-gray-900 border border-gray-300 rounded focus:ring-2 focus:ring-primary-500 outline-none resize-none"
                 />
