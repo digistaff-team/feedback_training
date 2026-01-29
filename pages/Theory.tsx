@@ -82,10 +82,10 @@ export const Theory: React.FC = () => {
               <div className="md:flex">
                 {/* Theory Section */}
                 <div className="p-8 md:w-1/2 border-b md:border-b-0 md:border-r border-gray-100 bg-gradient-to-br from-white to-gray-50">
-                  <span className="text-lg font-bold tracking-wider uppercase text-primary-600 bg-primary-50 px-2 py-1 rounded-md">
+                  <span className="text-sm font-bold tracking-wider uppercase text-primary-600 bg-primary-50 px-2 py-1 rounded-md">
                     {item.category}
                   </span>
-                  <h3 className="text-lg font-bold text-gray-800 mt-3 mb-3">{item.title}</h3>
+                  <h3 className="text-sm font-bold text-gray-800 mt-3 mb-3">{item.title}</h3>
                   <p className="text-gray-600 leading-relaxed text-lg">
                     {item.content}
                   </p>
