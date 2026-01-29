@@ -171,7 +171,7 @@ const App: React.FC = () => {
 
       {/* AI Coach Overlay - Positioned on border */}
       <div className="max-w-7xl w-full mx-auto relative z-50 pointer-events-none">
-        <div className="absolute right-4 sm:right-6 lg:right-8 top-12 transform -translate-y-1/2 pointer-events-auto">
+        <div className="absolute right-2 sm:right-4 lg:right-4 top-12 transform -translate-y-1/2 pointer-events-auto">
           <AICoach />
         </div>
       </div>
