@@ -92,7 +92,7 @@ export const Evaluate: React.FC = () => {
         </div>
         
         <div className="p-8">
-          <p className="text-xl font-medium text-gray-800 mb-8 leading-relaxed">
+          <p className="text-lg font-medium text-gray-800 mb-8 leading-relaxed">
             "{currentQ.statement}"
           </p>
 
