@@ -178,7 +178,7 @@ const App: React.FC = () => {
 
       {/* Footer */}
       <footer className="bg-white border-t border-gray-200 py-8">
-        <div className="max-w-7xl mx-auto px-4 text-center text-sm text-gray-400">
+        <div className="max-w-7xl mx-auto px-4 text-center text-sm text-indigo-800">
           <p>
             &copy; {new Date().getFullYear()} <a href="https://t.me/+aRkZGsApP0dmNTZi" target="_blank" rel="noopener noreferrer" className="hover:text-primary-600 transition-colors">Мастерство управления</a>
           </p>
