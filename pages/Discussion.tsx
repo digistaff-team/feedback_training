@@ -71,7 +71,7 @@ export const Discussion: React.FC = () => {
                <h3 className="text-xl font-bold text-gray-800">Этап {activeStep.title}</h3>
             </div>
             
-            <p className="text-lg text-gray-600 mb-6 text-lg">{activeStep.description}</p>
+            <p className="text-sm text-gray-600 mb-6 text-lg">{activeStep.description}</p>
 
             <div className="bg-gray-50 rounded-xl p-6 mb-8">
               <h4 className="font-semibold text-gray-700 mb-4 flex items-center gap-2">
