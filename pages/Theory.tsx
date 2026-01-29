@@ -67,7 +67,7 @@ export const Theory: React.FC = () => {
       <div className="text-center mb-10">
         <h2 className="text-2xl font-bold text-gray-900 mb-4">Теория за 5 минут</h2>
         <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-          Ключевые моменты по теме обратной связи в формате быстрых карточек. Проверьте своё понимание.
+          Ключевые моменты по теме обратной связи в формате быстрых карточек. Проверьте себя.
         </p>
       </div>
 
