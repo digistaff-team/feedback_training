@@ -85,8 +85,8 @@ export const Theory: React.FC = () => {
                   <span className="text-sm font-bold tracking-wider uppercase text-primary-600 bg-primary-50 px-2 py-1 rounded-md">
                     {item.category}
                   </span>
-                  <h3 className="text-sm font-bold text-gray-800 mt-3 mb-3">{item.title}</h3>
-                  <p className="text-gray-600 leading-relaxed text-lg">
+                  <h3 className="text-lg font-bold text-gray-800 mt-3 mb-3">{item.title}</h3>
+                  <p className="text-sm text-gray-600 leading-relaxed text-lg">
                     {item.content}
                   </p>
                 </div>
