@@ -68,10 +68,10 @@ export const Discussion: React.FC = () => {
                <div className="w-10 h-10 rounded-full bg-primary-100 text-primary-600 flex items-center justify-center font-bold text-xl">
                  {activeStep.title.charAt(0)}
                </div>
-               <h3 className="text-2xl font-bold text-gray-800">Этап {activeStep.title}</h3>
+               <h3 className="text-xl font-bold text-gray-800">Этап {activeStep.title}</h3>
             </div>
             
-            <p className="text-gray-600 mb-6 text-lg">{activeStep.description}</p>
+            <p className="text-lg text-gray-600 mb-6 text-lg">{activeStep.description}</p>
 
             <div className="bg-gray-50 rounded-xl p-6 mb-8">
               <h4 className="font-semibold text-gray-700 mb-4 flex items-center gap-2">
