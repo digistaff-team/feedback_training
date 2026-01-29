@@ -65,9 +65,9 @@ export const Theory: React.FC = () => {
   return (
     <div className="max-w-4xl mx-auto">
       <div className="text-center mb-10">
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">Теория в 5 минутах</h2>
-        <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-          Ключевые концепции по теме обратной связи в формате быстрых карточек. Проверьте своё понимание.
+        <h2 className="text-2xl font-bold text-gray-900 mb-4">Теория за 5 минут</h2>
+        <p className="text-sm text-gray-600 max-w-2xl mx-auto">
+          Ключевые моменты по теме обратной связи в формате быстрых карточек. Проверьте своё понимание.
         </p>
       </div>
 
@@ -85,7 +85,7 @@ export const Theory: React.FC = () => {
                   <span className="text-xs font-bold tracking-wider uppercase text-primary-600 bg-primary-50 px-2 py-1 rounded-md">
                     {item.category}
                   </span>
-                  <h3 className="text-2xl font-bold text-gray-800 mt-3 mb-3">{item.title}</h3>
+                  <h3 className="text-sm font-bold text-gray-800 mt-3 mb-3">{item.title}</h3>
                   <p className="text-gray-600 leading-relaxed text-lg">
                     {item.content}
                   </p>
@@ -95,7 +95,7 @@ export const Theory: React.FC = () => {
                 <div className="p-8 md:w-1/2 flex flex-col justify-center bg-white">
                   <h4 className="font-semibold text-gray-900 mb-4 flex items-center gap-2">
                     <svg className="w-5 h-5 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-                    Проверь себя:
+                    Проверьте себя:
                   </h4>
                   <p className="text-gray-800 font-medium mb-4 italic">"{item.question}"</p>
                   
@@ -148,7 +148,7 @@ export const Theory: React.FC = () => {
 
       <div className="mt-12 text-center bg-indigo-900 rounded-xl p-8 text-white shadow-xl">
         <h3 className="text-2xl font-bold mb-3">Готовы применить знания?</h3>
-        <p className="text-indigo-200 mb-6">Перейдите к практическому тренажеру.</p>
+        <p className="text-indigo-200 mb-6">Переходите к практике!</p>
         <Button 
             size="lg" 
             className="bg-white text-indigo-900 hover:bg-gray-100 border-none"
